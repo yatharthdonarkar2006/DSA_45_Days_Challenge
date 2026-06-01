@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/HP/OneDrive/Desktop/DSA-TRAILLX-TRAINING-INTERNSHIP/DAY-2",
-      "program": "c:/Users/HP/OneDrive/Desktop/DSA-TRAILLX-TRAINING-INTERNSHIP/DAY-2/build/Debug/outDebug",
+      "cwd": "c:/Users/HP/OneDrive/Desktop/DSA-TRAILLX-TRAINING-INTERNSHIP/DAY-4",
+      "program": "c:/Users/HP/OneDrive/Desktop/DSA-TRAILLX-TRAINING-INTERNSHIP/DAY-4/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
