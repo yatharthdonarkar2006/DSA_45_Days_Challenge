@@ -1,0 +1,45 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n;
+    cout << "Enter the num: " ;
+    cin >> n;
+    for (int i = 1; i <= n; i++)
+    {
+        for (int j = 1; j <= (n-i); j++){
+            cout << " ";
+        }
+ 
+        
+        char ch= 'A';
+        int half = (2*i-1)/2;
+        for (int j = 1; j <= (2*i-1); j++){
+            cout << ch;
+            if(j <= half){
+                ch++;
+            }
+            else{
+                ch--;
+            }
+            
+        }
+         for (int j = 1; j <= (n-i); j++){
+            cout << " ";
+        }
+        cout << endl;
+    }
+
+    return 0;
+}
+
+/*
+
+    A    
+   ABA   
+  ABCBA  
+ ABCDCBA 
+ABCDEDCBA
+
+*/
