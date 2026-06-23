@@ -23,7 +23,7 @@ int main()
     // mpp.clear();
     // cout<< mpp.size()<<endl;
 
-    //cout << mpp.empty();
+    cout << mpp.empty();
 
     return 0;
 }

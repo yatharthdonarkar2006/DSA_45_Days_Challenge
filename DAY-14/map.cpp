@@ -17,7 +17,7 @@ int main()
 
     mpp[102] = "KP";
 
-    mpp.erase(102);
+    //mpp.erase(102);
     for (auto it : mpp)
     {
         cout << it.first << " " << it.second << endl;

@@ -4,8 +4,8 @@ using namespace std;
 int main()
 {
 
-    multiset<int, greater<int>> ms;
-
+    multiset<int, greater<int>> ms;      // greater<int> used to reverse the sorting Order
+                                            // if we not used greater<int> than deafault will run
     ms.insert(10);
     ms.insert(5);
     ms.insert(30);
